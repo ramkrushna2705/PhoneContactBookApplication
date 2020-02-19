@@ -1,0 +1,11 @@
+# prfile configuration
+spring:
+  profiles:
+    active:
+    - dev
+    - log
+# configure for logging 
+
+logging:
+  pattern:
+    console: 
